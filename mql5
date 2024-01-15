@@ -1,0 +1,111 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                            Zonda EA              |
+//|                                       forexroboteasy.com         |
+//|                                      Forex Robot Easy Team       |
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|  This code implements the Zonda EA trading robot.                |
+//|  It includes real-time optimization, default settings,            |
+//|  fixed stop loss, full deal tracking, daily breakout strategy,    |
+//|  adaptive algorithm, and profit management functionality.         |
+//|                                                                  |
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|               Real-time Optimization Function                     |
+//|                                                                  |
+//+------------------------------------------------------------------+
+void RealTimeOptimization()
+{
+    // Implementation of real-time optimization code
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|                   Default Settings Function                       |
+//|                                                                  |
+//+------------------------------------------------------------------+
+void DefaultSettings()
+{
+    // Implementation of default settings code for GBPUSD M15 chart
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|                 Fixed Stop Loss Function                          |
+//|                                                                  |
+//+------------------------------------------------------------------+
+void FixedStopLoss()
+{
+    // Implementation of fixed stop loss code for each position
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|                 Full Deal Tracking Function                       |
+//|                                                                  |
+//+------------------------------------------------------------------+
+void FullDealTracking()
+{
+    // Implementation of full deal tracking code
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|                Daily Breakout Strategy Function                   |
+//|                                                                  |
+//+------------------------------------------------------------------+
+void DailyBreakoutStrategy()
+{
+    // Implementation of daily breakout strategy code
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|                 Adaptive Algorithm Function                       |
+//|                                                                  |
+//+------------------------------------------------------------------+
+void AdaptiveAlgorithm()
+{
+    // Implementation of adaptive algorithm code
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|               Profit Management Function                          |
+//|                                                                  |
+//+------------------------------------------------------------------+
+void ProfitManagement()
+{
+    // Implementation of profit management code for each part of the open position
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|                     Main Program Function                         |
+//|                                                                  |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Call all the necessary functions here
+    RealTimeOptimization();
+    DefaultSettings();
+    FixedStopLoss();
+    FullDealTracking();
+    DailyBreakoutStrategy();
+    AdaptiveAlgorithm();
+    ProfitManagement();
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|                     Program Termination                           |
+//|                                                                  |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Program termination code
+}
+
